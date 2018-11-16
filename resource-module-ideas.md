@@ -1,9 +1,18 @@
 #Resource Converstion
 
 ## Moules
+
+* Wast Storage - (Tank)
+	* storage - WasteWater, Waste
+* Molten Salt Heat Storage - (Tank)
+	* storage - WasteHeat
+* Septic Plant - (Tank)
+	* Intake - Waste, Electricity
+	* Output - Dirt, WasteHeat
 * Greenhouse - (coupila)
-	* intake - water, co2, nitrogen,  electric
-	* output - Waste Water, Oxygen, Organics
+	* intake - dirt, water, co2, nitrogen,  electric
+	* output - Waste Water, Waste, Oxygen, Organics
+	* storage - Wast, Water, Wastewater, Organics, nitrogen, CO2
 * Water Filtration System - (fuel tank)
 	* intake - Waste Water, Electricity
 	* output - Water
